@@ -1,0 +1,50 @@
+[
+  {
+    "id": "101A",
+    "name": "Dumbbells",
+    "instruction": "Gym dumbbells give you a greater range of motion while exercising and tone your...",
+    "img": "https://i.ibb.co/ph50SZw/pexels-photo-1431282.jpg",
+    "age": "20-25",
+    "time": 30
+  },
+  {
+    "id": "102B",
+    "name": "Climbmill",
+    "instruction": "Gym dumbbells give you a greater range of motion while exercising and tone your...",
+    "img": "https://i.ibb.co/MBMFRcy/pexels-photo-3289711.jpg",
+    "age": "25-30",
+    "time": 45
+  },
+  {
+    "id": "103C",
+    "name": "Treadmill",
+    "instruction": "Gym dumbbells give you a greater range of motion while exercising and tone your...",
+    "img": "https://ibb.co/MBMFRcy",
+    "age": "20-30",
+    "time": 15
+  },
+  {
+    "id": "104D",
+    "name": "Kettlebells",
+    "instruction": "Gym dumbbells give you a greater range of motion while exercising and tone your...",
+    "img": "https://i.ibb.co/FVYmw1K/pexels-photo-2247179.jpg",
+    "age": "25-35",
+    "time": 20
+  },
+  {
+    "id": "105E",
+    "name": "Rowing Machine",
+    "instruction": "Gym dumbbells give you a greater range of motion while exercising and tone your...",
+    "img": "https://i.ibb.co/FXxwCCR/pexels-photo-2261485.jpg",
+    "age": "25-40",
+    "time": 40
+  },
+  {
+    "id": "106F",
+    "name": "Spin Bikes",
+    "instruction": "Gym dumbbells give you a greater range of motion while exercising and tone your...",
+    "img": "https://i.ibb.co/TTbRdZK/pexels-photo-1552104.jpg",
+    "age": "18-25",
+    "time": 60
+  }
+]
