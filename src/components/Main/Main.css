@@ -1,0 +1,24 @@
+.main-container {
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+}
+
+.gym-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin: 100px 50px;
+}
+
+.gym-summary {
+    background-color: lightcyan;
+    padding: 15px;
+}
+
+@media screen and (max-width:768px) {
+    .gym-container {
+
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+}
