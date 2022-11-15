@@ -1,6 +1,7 @@
 import { faDumbbell } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useEffect, useState } from 'react';
+import Active from '../Active/Active';
 import Gym from '../Gym/Gym';
 import './Main.css'
 
@@ -15,7 +16,7 @@ const Main = () => {
     }, []);
 
     const handelAddToList = (gym) => {
-        console.log(gym)
+        //console.log(gym);
         //cart.push(gym)
         const newActive = [...active, gym];
         setActive(newActive);
@@ -40,8 +41,7 @@ const Main = () => {
                 </div>
 
                 <div className='gym-summary'>
-                    <h1>Gym Summary</h1>
-                    <p>Selected Items: {active.length}</p>
+                    <Active active={active}></Active>
                 </div>
             </div>
         </div>

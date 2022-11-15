@@ -1,0 +1,24 @@
+.profile {
+    display: flex;
+    align-items: center;
+
+}
+
+.profile img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.profile-text h1 {
+    font-size: 18px;
+}
+
+.break h4 span {
+    cursor: pointer;
+}
+
+.break h4:clicked {
+    background-color: red;
+    color: blue;
+}
