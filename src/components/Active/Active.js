@@ -27,11 +27,11 @@ const Active = (props) => {
 
                 <div className='d-flex bg-light p-2 justify-content-around align-items-center my-5'>
                     <div>
-                        <h4>75<sub>Kg</sub></h4>
+                        <h4>78<sub>Kg</sub></h4>
                         <h6>Weight</h6>
                     </div>
                     <div>
-                        <h4>6.5</h4>
+                        <h4>5.9</h4>
                         <h6>Height</h6>
                     </div>
 
