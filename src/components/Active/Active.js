@@ -31,7 +31,7 @@ const Active = (props) => {
                         <h6>Weight</h6>
                     </div>
                     <div>
-                        <h4>6.5</h4>
+                        <h3>6.5</h3>
                         <h6>Height</h6>
                     </div>
 
