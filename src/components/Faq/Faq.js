@@ -19,7 +19,7 @@ const Faq = () => {
                 <strong>
                     Q2: Difference between props and state:
                 </strong>
-                <div>
+                <div className='d-flex align-items-center justify-content-between my-2'>
                     <div>
                         <p><strong>Props</strong></p>
                         <ul>
@@ -40,6 +40,11 @@ const Faq = () => {
                         </ul>
                     </div>
                 </div>
+            </div>
+
+            <div>
+                <strong>Q3:How useEffect works in ReactJs?</strong>
+                <p>Ans:The useEffect Hook allows us to perform side effects in our components. Some examples of side effects are: fetching data, directly updating the DOM, and timers. useEffect accepts two arguments. </p>
             </div>
 
         </div>
