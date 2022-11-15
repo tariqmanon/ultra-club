@@ -7,7 +7,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 15px;
-    margin: 100px 50px;
+    margin-top: 10px;
 }
 
 .gym-summary {

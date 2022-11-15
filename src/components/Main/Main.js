@@ -23,24 +23,28 @@ const Main = () => {
     }
     return (
         <div>
-            <div className='d-flex align-items-center'>
-                <FontAwesomeIcon icon={faDumbbell}></FontAwesomeIcon>
-                <h2>Select Today's Excercise </h2>
-            </div>
-            <div className='main-container'>
-                <div className='gym-container'>
 
-                    {
-                        gyms.map(gym => <Gym
-                            key={gym.id}
-                            gym={gym}
-                            handelAddToList={handelAddToList}
-                        >
-                        </Gym>)
-                    }
+            <div className='row'>
+
+                <div className='col-md-8'>
+                    <div className='d-flex align-items-center'>
+                        <FontAwesomeIcon icon={faDumbbell}></FontAwesomeIcon>
+                        <h2>Select Today's Excercise </h2>
+                    </div>
+                    <div className='gym-container'>
+
+
+                        {
+                            gyms.map(gym => <Gym
+                                key={gym.id}
+                                gym={gym}
+                                handelAddToList={handelAddToList}
+                            >
+                            </Gym>)
+                        }
+                    </div>
                 </div>
-
-                <div className='gym-summary'>
+                <div className='gym-summary col-md-4'>
                     <Active active={active}></Active>
                 </div>
             </div>

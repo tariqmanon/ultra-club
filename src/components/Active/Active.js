@@ -15,7 +15,7 @@ const Active = (props) => {
         document.getElementById('break').innerText = e.target.innerText;
     }
     return (
-        <div>
+        <div className='active'>
             <div>
                 <div className='profile'>
                     <img src={mainImg} alt="" />
@@ -65,6 +65,7 @@ const Active = (props) => {
                 </div>
             </div>
             <button className='my-3 btn btn-primary text-center btn-lg w-100'>Activity Completed</button>
+
         </div>
     );
 };

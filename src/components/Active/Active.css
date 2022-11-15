@@ -22,3 +22,8 @@
     background-color: red;
     color: blue;
 }
+
+.active {
+    position: sticky;
+    top: 0;
+}
